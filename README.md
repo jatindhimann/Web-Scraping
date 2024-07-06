@@ -36,10 +36,10 @@ The script requires the following Python libraries:
 
 ## Run Code
 
-``Mega_scrape('https://github.com/search?q=topic%3Apython&type=Repositories')``
+``Mega_scrape('https://github.com/search?q=topic%3Apython&type=Repositories')`` <br>
 This will scrape data for all the repositories displayed on the search page and save the results to a CSV file named repository_info.csv.
 
-``df = scrape_github_id('https://github.com/pandas-dev/pandas')``
+``df = scrape_github_id('https://github.com/pandas-dev/pandas')`` <br>
 This will scrape data for the specified repository and return a pandas DataFrame.
 
 ## Notes
