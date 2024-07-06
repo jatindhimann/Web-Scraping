@@ -1,3 +1,4 @@
+# CLICK FOR MORE DETAILS
 <table>
   <tr>
       <td><a href="Github%20Repository">GitHub Repositories Scraper</a></td>
