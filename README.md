@@ -38,3 +38,14 @@ This will scrape data for the specified repository and return a pandas DataFrame
 - The script assumes that the GitHub page structure remains consistent. If the HTML layout changes, the script may need to be updated accordingly.
 - The script currently supports scraping up to 30 repositories per page. If the search results exceed 30 repositories, the script will automatically navigate to the next       page and continue scraping.
 - The scraped data is saved to a CSV file named repository_info.csv in the same directory as the script.
+
+  # GitHub Topics Scraper
+
+- We're going to scrape https://github.com/topics
+- We'll get a list of topics. For each topic, we'll get topic title, topic page URL and topic description
+- For each topic, we'll get the top 25 repositories in the topic from the topic page
+- For each repository, we'll grab the repo name, username, stars and repo URL
+- For each topic we'll create a CSV file in the following format:
+- Repo Name,Username,Stars,Repo URL
+  `three.js,mrdoob,69700,https://github.com/mrdoob/three.js`
+  `libgdx,libgdx,18300,https://github.com/libgdx/libgdx`
