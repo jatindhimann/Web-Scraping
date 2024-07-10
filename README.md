@@ -46,6 +46,7 @@ This will scrape data for the specified repository and return a pandas DataFrame
 - For each topic, we'll get the top 25 repositories in the topic from the topic page
 - For each repository, we'll grab the repo name, username, stars and repo URL
 - For each topic we'll create a CSV file in the following format:
-- Repo Name,Username,Stars,Repo URL
+- Repo Name,Username,Stars,Repo URL <br>
+  
   `three.js,mrdoob,69700,https://github.com/mrdoob/three.js`
   `libgdx,libgdx,18300,https://github.com/libgdx/libgdx`
